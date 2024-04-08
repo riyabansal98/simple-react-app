@@ -6,7 +6,7 @@ on:
 
 jobs: 
   say_hello: 
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-22.04
     steps: 
       - name: Print Hello World
         run: echo "Hello, World!"
