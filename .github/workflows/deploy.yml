@@ -1,3 +1,12 @@
-wffrrfwrfw
+name: Hello World Workflow
 
-qeqefqe
+on: 
+  push: 
+    branches: [main]
+
+jobs: 
+  say_hello: 
+    runs_on: ubuntu_latest
+    steps: 
+      - name: Print Hello World
+        run: echo "Hello, World!"
